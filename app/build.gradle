@@ -19,7 +19,7 @@ android {
     }
 
     buildTypes {
-        release {
+        dubug {
             firebaseAppDistribution {
                 releaseNotesFile="New Changes done"
                 testers="devendra.raghuwanshi@shopkirana.com"
@@ -32,7 +32,7 @@ android {
         demo {
             dimension "version"
             firebaseAppDistribution {
-                releaseNotes="Release notes for demo version"
+                releaseNotes="Release notes for demo version bhagwa"
                 testers="devendra.raghuwanshi@shopkirana.com"
             }
         }
