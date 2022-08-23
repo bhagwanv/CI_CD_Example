@@ -12,8 +12,8 @@ android {
         applicationId "com.ci.cd"
         minSdk 21
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,14 +33,14 @@ android {
             dimension "version"
             firebaseAppDistribution {
                 releaseNotes="Release notes for demo version bhagwa"
-                testers="devendra.raghuwanshi@shopkirana.com"
+                testers="devendra.raghuwanshi@shopkirana.com,shivam.chouhan@shopkirana.com"
             }
         }
         full {
             dimension "version"
             firebaseAppDistribution {
                 releaseNotes="Release notes for full version"
-                testers="devendra.raghuwanshi@shopkirana.com"
+                testers="devendra.raghuwanshi@shopkirana.com,shivam.chouhan@shopkirana.com"
             }
         }
     }
