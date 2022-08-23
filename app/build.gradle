@@ -22,7 +22,7 @@ android {
         dubug {
             firebaseAppDistribution {
                 releaseNotesFile="New Changes done"
-                testers="devendra.raghuwanshi@shopkirana.com"
+                testers="devendra.raghuwanshi@shopkirana.com,shivam.chouhan@shopkirana.com"
             }
         }
     }
