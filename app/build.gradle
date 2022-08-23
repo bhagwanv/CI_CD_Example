@@ -25,6 +25,7 @@ android {
                 testers="devendra.raghuwanshi@shopkirana.com,shivam.chouhan@shopkirana.com"
             }
         }
+        
     }
 
     flavorDimensions "version"
@@ -39,7 +40,7 @@ android {
         full {
             dimension "version"
             firebaseAppDistribution {
-                releaseNotes="Release notes for full version"
+                releaseNotes="Release Deploy"
                 testers="devendra.raghuwanshi@shopkirana.com,shivam.chouhan@shopkirana.com"
             }
         }
